@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Honey House น้ำผึ้งธรรมชาติ คัดสรรความหวานจากธรรมชาติส่งตรงถึงบ้าน">
+  <title>Honey House | ความหวานจากธรรมชาติ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="#"><span class="brand-mark">✿</span><span>HONEY <b>HOUSE</b><small>Sweetness from nature</small></span></a>
+<nav><a href="#products">สินค้า</a><a href="#story">เรื่องราวของเรา</a><a href="#contact">ติดต่อเรา</a></nav>
+<button class="cart-button" id="openCart" aria-label="เปิดตะกร้าสินค้า">ตะกร้า <span id="cartCount">0</span></button></header>
+<main>
+<section class="hero"><div class="hero-copy"><span class="eyebrow">PURE • NATURAL • HONEY</span><h1>ความหวานที่ดี<br>เริ่มต้นจาก<span>ธรรมชาติ</span></h1><p>เติมความสุขให้ทุกวันด้วยน้ำผึ้งธรรมชาติ คัดสรรอย่างใส่ใจจาก Honey House</p><a class="primary-link" href="#products">เลือกช้อปสินค้า <span>→</span></a></div><div class="hero-art"><div class="sun"></div><div class="honey-jar"><span>HONEY<br>HOUSE</span></div><div class="leaf leaf-one">✦</div><div class="leaf leaf-two">✿</div></div></section>
+<section class="promise"><div><b>100%</b><span>ความหวานจากธรรมชาติ</span></div><div><b>Carefully</b><span>คัดสรรอย่างใส่ใจ</span></div><div><b>From us</b><span>ส่งตรงถึงหน้าบ้าน</span></div></section>
+<section class="section" id="products"><div class="section-heading"><span class="eyebrow">OUR PRODUCTS</span><h2>เลือกความหวานที่ใช่</h2><p>น้ำผึ้งคุณภาพดีสำหรับทุกช่วงเวลาของคุณ</p></div><div id="productGrid" class="product-grid"></div></section>
+<section class="story" id="story"><div class="story-art">🍯</div><div><span class="eyebrow">A LITTLE STORY</span><h2>ธรรมชาติในทุกหยด</h2><p>Honey House เชื่อว่าความสุขเล็ก ๆ เริ่มต้นได้จากสิ่งดี ๆ ในทุกวัน เราจึงตั้งใจคัดสรรน้ำผึ้งเพื่อให้คุณได้เติมความหวานให้เครื่องดื่ม อาหาร และช่วงเวลาพิเศษของคุณ</p><a href="#products" class="text-link">ค้นพบสินค้าของเรา →</a></div></section>
+<section class="contact" id="contact"><span class="eyebrow">LET'S TALK</span><h2>มีคำถามหรืออยากสั่งซื้อ?</h2><p>พูดคุยกับ Honey House ได้ทาง LINE</p><a id="lineLink" class="primary-link" href="https://line.me/" target="_blank" rel="noopener">ติดต่อผ่าน LINE ↗</a></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">✿</span><span>HONEY <b>HOUSE</b><small>Sweetness from nature</small></span></a><small>© <span id="year"></span> Honey House. Made with care.</small></footer>
+<div class="cart-backdrop" id="cartBackdrop"></div><aside class="cart-drawer" id="cartDrawer" aria-label="ตะกร้าสินค้า"><div class="cart-head"><h2>ตะกร้าสินค้า</h2><button id="closeCart" class="icon-button">✕</button></div><div id="cartItems" class="cart-items"></div><div class="cart-total"><span>ยอดรวม</span><b id="cartTotal">฿0</b></div><form id="checkoutForm" class="checkout-form"><h3>ข้อมูลสำหรับจัดส่ง</h3><label>ชื่อผู้รับ<input name="customerName" required placeholder="ชื่อ-นามสกุล"></label><label>เบอร์โทรศัพท์<input name="phone" required inputmode="tel" placeholder="08X-XXX-XXXX"></label><label>ที่อยู่จัดส่ง<textarea name="address" required rows="3" placeholder="บ้านเลขที่ ถนน แขวง/ตำบล เขต/อำเภอ จังหวัด รหัสไปรษณีย์"></textarea></label><label>หมายเหตุ<textarea name="note" rows="2" placeholder="รายละเอียดเพิ่มเติม (ถ้ามี)"></textarea></label><button class="primary-button" type="submit">ยืนยันคำสั่งซื้อ</button><p id="checkoutMessage" class="form-message"></p></form></aside>
+<script src="config.js"></script><script src="app.js"></script>
+</body></html>
