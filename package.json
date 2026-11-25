@@ -1,0 +1,13 @@
+{
+  "name": "honey-house",
+  "version": "1.0.0",
+  "description": "Honey House - Natural Honey Store",
+  "private": true,
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "lint": "npx eslint . --ext .js"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}
